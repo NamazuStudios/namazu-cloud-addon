@@ -20,8 +20,9 @@
 
 ## What is this?
 
-**Namazu Cloud Addons** turn a shared multi-tenant Kubernetes cluster into a
-platform your customers extend safely. An *addon* is Terraform that Namazu
+**Namazu Cloud Addons** enable cloud-specific and advanced configuration in
+your Namazu Cloud workspace or instance — custom cloud-specific
+configuration and enhanced features. An *addon* is Terraform that Namazu
 Studios installs into a tenant's namespace under a **least-privilege
 executor identity** — never touching the tenant's baseline deployment,
 never touching another tenant's anything. The install manifest is a pull
