@@ -93,7 +93,7 @@ support cycle. Namazu Studios can also **author a custom addon for you,
 for a fee scoped to the work required**. Full terms in
 [ADDONS.md](https://github.com/NamazuStudios/namazu-cloud-addon-example/blob/main/ADDONS.md).
 
-## ⚙️ How it works
+## 🔧 How it works
 
 ```
 merge to main (the PR IS the install manifest)
