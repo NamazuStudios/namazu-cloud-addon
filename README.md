@@ -116,15 +116,13 @@ generic capability is public and auditable.
 
 ## 🧠 Built for generative AI platforms
 
-The pattern this system was extracted from: a multi-tenant GenAI platform
-where every customer gets their own **GPU pool** (quota-capped,
-batch-elastic), their own **provisioned weights volume** (snapshot →
-serving in minutes), and their own **pinned inference image** — turned on
-by a pull request and billed by attribution labels.
-
-Whether your tenants run **diffusion**, **LLM serving**, **LoRA
-fine-tuning**, or **batch video/music generation**, the addons give each
-one dedicated capacity without giving each one a cluster.
+We enable all the pieces to build heavily customized generative AI jobs:
+dedicated GPU capacity that scales from zero to your cap, provisioned
+storage that restores model weights and checkpoints in minutes, and
+pinned inference images in your own registry. Run **diffusion**,
+**LLM serving**, **LoRA training and serving**, fine-tuned workloads,
+batch media generation — per tenant, on demand, without giving anyone
+a cluster.
 
 ## 📚 Documentation
 
