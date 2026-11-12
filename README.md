@@ -12,7 +12,8 @@
 [The addon catalog](#-the-official-addon-catalog) ·
 [Bring your own addon](#-bring-your-own-add-on) ·
 [How it works](#-how-it-works) ·
-[The process, terms, and shared responsibility](https://github.com/NamazuStudios/namazu-cloud-addon-example/blob/main/ADDONS.md)
+[The process, terms, and shared responsibility](https://github.com/NamazuStudios/namazu-cloud-addon/blob/main/ADDONS.md) ·
+[The manifest spec](https://github.com/NamazuStudios/namazu-cloud-addon/blob/main/MANIFEST.md)
 
 </div>
 
@@ -91,7 +92,7 @@ Live maintenance is pull requests: **unlimited reviews, within reason,**
 as long as the permissions boundary holds — boundary changes start a new
 support cycle. Namazu Studios can also **author a custom addon for you,
 for a fee scoped to the work required**. Full terms in
-[ADDONS.md](https://github.com/NamazuStudios/namazu-cloud-addon-example/blob/main/ADDONS.md).
+[ADDONS.md](https://github.com/NamazuStudios/namazu-cloud-addon/blob/main/ADDONS.md).
 
 ## 🔧 How it works
 
@@ -126,6 +127,7 @@ a cluster.
 
 ## 📚 Documentation
 
-- The process + terms: [ADDONS.md](https://github.com/NamazuStudios/namazu-cloud-addon-example/blob/main/ADDONS.md)
+- The process + terms: [ADDONS.md](https://github.com/NamazuStudios/namazu-cloud-addon/blob/main/ADDONS.md)
+- The `manifest.yaml` specification: [MANIFEST.md](https://github.com/NamazuStudios/namazu-cloud-addon/blob/main/MANIFEST.md)
 - The design of record: the Namazu Cloud Addon System notebook in the
   Namazu Cloud portal
