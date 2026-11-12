@@ -12,7 +12,7 @@
 [The addon catalog](#-the-official-addon-catalog) ·
 [Bring your own addon](#-bring-your-own-add-on) ·
 [How it works](#-how-it-works) ·
-[The process](#-the-process-terms-and-shared-responsibility)
+[The process, terms, and shared responsibility](https://github.com/NamazuStudios/namazu-cloud-addon-example/blob/main/ADDONS.md)
 
 </div>
 
