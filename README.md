@@ -4,8 +4,6 @@
 
 **Per-tenant infrastructure, installed by PR, operated by Namazu Studios.**
 
-[![License: AGPL v3](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Namazu_Cloud-4c1)](https://namazustudios.com/docs/)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-EKS-326ce5)](https://kubernetes.io)
 [![Terraform](https://img.shields.io/badge/IaC-Terraform-7b42bc)](https://www.terraform.io)
 
@@ -69,7 +67,7 @@ Official addons activate for a **fixed fee**.
 **Paired infrastructure**: tenant accounts that consume the co-selling
 agent use the
 **[namazu-apn-cloudformation](https://github.com/NamazuStudios/namazu-apn-cloudformation)**
-template (AGPL-3.0) — the account-owner half of the co-sell role pairing.
+template — the account-owner half of the co-sell role pairing.
 
 **Related repos**: the org forks (`namazu-cloud-addon-<org>`) are private
 by design — they carry each tenant's install matrix and org-scoped IAM
@@ -80,7 +78,7 @@ policies — as are `namazu-agent-apn` (the agent) and the platform repos
 
 Need something the catalog doesn't cover? The
 **[example template](https://github.com/NamazuStudios/namazu-cloud-addon-example)**
-(MIT — what you build is yours) is the starting point:
+— what you build is yours is the starting point:
 
 1. **Make a private clone** and write the Terraform you wish to install,
    plus its `manifest.yaml` input declaration.
@@ -110,8 +108,7 @@ merge to main (the PR IS the install manifest)
 ```
 
 The enforcer is the
-**[namazu-cloud-addon-runner](https://github.com/NamazuStudios/namazu-cloud-addon-runner)**
-(AGPL-3.0): shared **code, not shared authority** — the OIDC trust belongs
+**[namazu-cloud-addon-runner](https://github.com/NamazuStudios/namazu-cloud-addon-runner)**: shared **code, not shared authority** — the OIDC trust belongs
 to the calling org's fork; the action can grant nothing. Org forks stay
 **private** (they carry tenant ids and org-scoped IAM policies); the
 generic capability is public and auditable.
@@ -130,21 +127,6 @@ one dedicated capacity without giving each one a cluster.
 
 ## 📚 Documentation
 
-- The manual: [namazustudios.com/docs — Custom Addons](https://namazustudios.com/docs/)
 - The process + terms: [ADDONS.md](https://github.com/NamazuStudios/namazu-cloud-addon-example/blob/main/ADDONS.md)
 - The design of record: the Namazu Cloud Addon System notebook in the
   Namazu Cloud portal
-
-## License & provenance
-
-**AGPL-3.0** — see [LICENSE](LICENSE). This overview repository is made
-public for **transparency and visibility**: the addon system is deeply
-connected to Namazu Cloud. Written for Namazu Studios and Namazu Cloud
-use; derivative works are expected to come back upstream to
-`NamazuStudios`, no exceptions.
-
-**AGPL waiver for delivered work**: Namazu Studios, as the copyright
-holder, **waives all AGPL obligations for software installed through a
-purchase or other business arrangement between Namazu Studios and the
-client** — the license terms govern the code as published; work delivered
-under contract is delivered under that agreement.
