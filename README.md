@@ -71,6 +71,13 @@ agent use the
 **[namazu-apn-cloudformation](https://github.com/NamazuStudios/namazu-apn-cloudformation)**
 template — the account-owner half of the co-sell role pairing.
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="aws-partner-dark.png">
+    <img src="aws-partner-light.png" alt="AWS Partner Network" width="220">
+  </picture>
+</p>
+
 **Flagship: the co-selling agent.** The
 [agent-apn](https://github.com/NamazuStudios/namazu-cloud-addon-agent-apn)
 addon wires the APN funding engine: it authors and manages every ACE
