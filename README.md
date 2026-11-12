@@ -62,7 +62,7 @@ Each one is a public repo — read every line before you buy:
 | **[gpu](https://github.com/NamazuStudios/namazu-cloud-addon-gpu)** | Dedicated Karpenter **GPU node pools** per tenant (g4dn/g5/g6/g7) — diffusion, LLM, and batch AI jobs scale on demand from zero to the tenant's cap, with spot/on-demand capacity types and self-reclaiming 4-GPU `-xl` pools for bursty renders |
 | **[fast-storage-class](https://github.com/NamazuStudios/namazu-cloud-addon-fast-storage-class)** | A provisioned **fast EBS StorageClass per namespace** — 16,000 IOPS + 1,000 MiB/s for GenAI cold starts: model weights and LoRA checkpoints restore from snapshot in minutes, namespace-guarded so one tenant can't borrow another's class |
 | **[organization-ecr-repository](https://github.com/NamazuStudios/namazu-cloud-addon-organization-ecr-repository)** | An **org-namespaced ECR repository** — your inference and worker images pinned by IMMUTABLE digest, in-region for fast node pulls, per-namespace pull control, OIDC-trusted CI push roles |
-| **[agent-apn](https://github.com/NamazuStudios/namazu-cloud-addon-agent-apn)** | **AWS Partner Central wiring** for the co-selling agent: outbound assume on the tenant's agent role, optional co-sell opportunity-manager role, ECR pull |
+| **[agent-apn](https://github.com/NamazuStudios/namazu-cloud-addon-agent-apn)** | **Your APN funding engine**: ACE opportunities authored and managed end to end without touching the APN console, WAFRs for funding submissions, cost/usage estimates for POC and MAP, multi-deal tracking, meeting notes summarized into ACE, client-ready PDFs/Word/pitch decks — with opportunity-score optimization, next-step recommendations, sales guidance, and objection analysis built in |
 
 Official addons activate for a **fixed fee**.
 
@@ -70,6 +70,15 @@ Official addons activate for a **fixed fee**.
 agent use the
 **[namazu-apn-cloudformation](https://github.com/NamazuStudios/namazu-apn-cloudformation)**
 template — the account-owner half of the co-sell role pairing.
+
+**Flagship: the co-selling agent.** The
+[agent-apn](https://github.com/NamazuStudios/namazu-cloud-addon-agent-apn)
+addon wires the APN funding engine: it authors and manages every ACE
+opportunity without touching the APN console, generates WAFRs, estimates
+cloud usage and costs for POC/MAP submissions, tracks deals in parallel,
+summarizes meeting notes into ACE, and produces client-ready PDFs, Word
+documents, and pitch decks — plus opportunity-score optimization, next
+steps, sales guidance, and objection analysis.
 
 **Related repos**: the org forks (`namazu-cloud-addon-<org>`) are private
 by design — they carry each tenant's install matrix and org-scoped IAM
