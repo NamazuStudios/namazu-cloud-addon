@@ -66,6 +66,16 @@ Each one is a public repo — read every line before you buy:
 
 Official addons activate for a **fixed fee**.
 
+**Paired infrastructure**: tenant accounts that consume the co-selling
+agent use the
+**[namazu-apn-cloudformation](https://github.com/NamazuStudios/namazu-apn-cloudformation)**
+template (AGPL-3.0) — the account-owner half of the co-sell role pairing.
+
+**Related repos**: the org forks (`namazu-cloud-addon-<org>`) are private
+by design — they carry each tenant's install matrix and org-scoped IAM
+policies — as are `namazu-agent-apn` (the agent) and the platform repos
+(instance, terraform, element).
+
 ## 🛠 Bring your own add-on
 
 Need something the catalog doesn't cover? The
