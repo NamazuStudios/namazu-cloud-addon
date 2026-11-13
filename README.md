@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☁️ Namazu Cloud Addons
+# ☁️ [Namazu Cloud](https://cloud.namazustudios.com) Addons
 
 **Per-tenant infrastructure, installed by PR, operated by Namazu Studios.**
 
@@ -21,8 +21,8 @@
 
 ## What is this?
 
-**Namazu Cloud Addons** enable cloud-specific and advanced configuration in
-your Namazu Cloud workspace or instance — custom cloud-specific
+**[Namazu Cloud](https://cloud.namazustudios.com) Addons** enable cloud-specific and advanced configuration in
+your [Namazu Cloud](https://cloud.namazustudios.com) workspace or instance — custom cloud-specific
 configuration and enhanced features. An *addon* is Terraform that Namazu
 Studios installs into a tenant's namespace under a **least-privilege
 executor identity** — never touching the tenant's baseline deployment,
@@ -145,5 +145,5 @@ a cluster.
 
 - The process + terms: [ADDONS.md](https://github.com/NamazuStudios/namazu-cloud-addon/blob/main/ADDONS.md)
 - The `manifest.yaml` specification: [MANIFEST.md](https://github.com/NamazuStudios/namazu-cloud-addon/blob/main/MANIFEST.md)
-- The design of record: the Namazu Cloud Addon System notebook in the
-  Namazu Cloud portal
+- The design of record: the [Namazu Cloud](https://cloud.namazustudios.com) Addon System notebook in the
+  [Namazu Cloud](https://cloud.namazustudios.com) portal
