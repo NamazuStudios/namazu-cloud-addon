@@ -151,3 +151,11 @@ a cluster.
 - The `manifest.yaml` specification: [MANIFEST.md](https://github.com/NamazuStudios/namazu-cloud-addon/blob/main/MANIFEST.md)
 - The design of record: the [Namazu Cloud](https://cloud.namazustudios.com) Addon System notebook in the
   [Namazu Cloud](https://cloud.namazustudios.com) portal
+<p align="center">
+  <a href="https://cloud.namazustudios.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="aws-partner-dark.png">
+      <img src="aws-partner-light.png" alt="AWS Partner" width="200">
+    </picture>
+  </a>
+</p>
