@@ -18,6 +18,7 @@ for your namespaces:
 | [`namazu-cloud-addon-gpu`](https://github.com/NamazuStudios/namazu-cloud-addon-gpu) | Opt-in GPU node capacity: Karpenter GPU tiers (g4dn/g5/g6/g7), per-tenant quota, single-GPU or 4-GPU `-xl` shapes |
 | [`namazu-cloud-addon-fast-storage-class`](https://github.com/NamazuStudios/namazu-cloud-addon-fast-storage-class) | A provisioned fast StorageClass per namespace (up to 16,000 IOPS / 1,000 MiB/s) — built for snapshot lazy-restore cold starts |
 | [`namazu-cloud-addon-organization-ecr-repository`](https://github.com/NamazuStudios/namazu-cloud-addon-organization-ecr-repository) | An ECR repository in our registry, org-namespaced, per-namespace pull control, CI push roles |
+| [`namazu-cloud-addon-custom-dns`](https://github.com/NamazuStudios/namazu-cloud-addon-custom-dns) | Full custom DNS: CloudFront SaaS Manager distribution tenants per hostname the tenant owns, managed TLS certificates, one CNAME published by the tenant (provider-subdomain indirection), host header forwarded end to end to the cloud-proxy routing system |
 | [`namazu-cloud-addon-agent-apn`](https://github.com/NamazuStudios/namazu-cloud-addon-agent-apn) | The APN funding engine: ACE opportunities without APN access, WAFRs, POC/MAP cost estimates, deal tracking, meeting-note summaries, client-ready PDFs/Word/pitch decks — score optimization, next steps, sales guidance, objection analysis |
 
 ## Bringing your own addon
